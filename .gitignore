@@ -1,0 +1,488 @@
+============================================================
+PROYECTOS MULTI-STACK
+Node.js / React Native / Dart / Flutter / Kotlin / Android
+============================================================
+============================================================
+SISTEMAS OPERATIVOS
+============================================================
+macOS
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+Windows
+
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+Linux
+
+.directory
+
+============================================================
+EDITORES / IDEs
+============================================================
+Visual Studio Code
+
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+IntelliJ / Android Studio / JetBrains
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+Eclipse
+
+.classpath
+.project
+.settings/
+
+NetBeans
+
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+Fleet
+
+.fleet/
+
+============================================================
+VARIABLES DE ENTORNO / SECRETOS
+============================================================
+
+.env
+.env.*
+!.env.example
+!.env.sample
+
+*.pem
+*.key
+*.keystore
+*.jks
+
+Android signing
+
+key.properties
+
+Firebase / Google credentials
+
+google-services.json
+GoogleService-Info.plist
+
+Si necesitas versionar alguno de estos archivos,
+elimina su entrada correspondiente.
+============================================================
+NODE.JS
+============================================================
+Dependencias
+
+node_modules/
+
+Logs
+
+logs/
+.log
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+Cache
+
+.npm/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/install-state.gz
+.pnpm-store/
+
+Coverage
+
+coverage/
+.nyc_output/
+
+Build
+
+dist/
+build/
+out/
+
+Parcel
+
+.parcel-cache/
+
+Turborepo
+
+.turbo/
+
+Vite
+
+.vite/
+
+Next.js
+
+.next/
+.vercel/
+
+Nuxt
+
+.nuxt/
+.output/
+
+Gatsby
+
+.cache/
+public/
+
+Angular
+
+.angular/
+
+TypeScript
+
+*.tsbuildinfo
+
+============================================================
+REACT NATIVE
+============================================================
+Metro
+
+.metro-health-check*
+
+React Native
+
+.react-native/
+
+Expo
+
+.expo/
+.expo-shared/
+
+React Native build
+
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+
+ios/Pods/
+ios/build/
+
+Xcode
+
+ios/DerivedData/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcuserstate
+
+CocoaPods
+
+Pods/
+Podfile.lock
+
+Fastlane
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+React Native generated files
+
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+============================================================
+FLUTTER / DART
+============================================================
+Flutter
+
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+
+Flutter generated files
+
+build/
+
+Flutter platform files
+
+**/android/.gradle/
+**/android/app/build/
+**/android/build/
+**/android/local.properties
+
+**/ios/Pods/
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/.last_build_id/
+**/ios/Flutter/flutter_export_environment.sh
+
+Flutter macOS
+
+**/macos/Flutter/ephemeral/
+
+Flutter Linux
+
+**/linux/flutter/ephemeral/
+
+Flutter Windows
+
+**/windows/flutter/ephemeral/
+
+Flutter web
+
+**/web/.dart_tool/
+
+Dart coverage
+
+**/coverage/
+
+Dart generated files
+
+*.g.dart
+*.freezed.dart
+
+Flutter plugin symlinks
+
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+
+============================================================
+KOTLIN
+============================================================
+Compilación Kotlin
+
+*.class
+
+Gradle
+
+.gradle/
+**/.gradle/
+
+Gradle build
+
+build/
+**/build/
+
+Kotlin generated
+
+.kotlin/
+**/.kotlin/
+
+Kotlin/Native
+
+.kotlin_module
+
+Android
+
+**/local.properties
+
+Android Studio
+
+captures/
+.externalNativeBuild/
+.cxx/
+
+APK / AAB
+
+*.apk
+*.aab
+*.ap_
+*.dex
+
+Android generated
+
+**/generated/
+**/intermediates/
+**/outputs/
+**/tmp/
+
+ProGuard / R8
+
+*.mapping
+
+============================================================
+JAVA
+============================================================
+
+.class
+hs_err_pid
+
+Maven
+
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+.flattened-pom.xml
+
+Gradle
+
+.gradle/
+build/
+
+============================================================
+TESTING
+============================================================
+
+coverage/
+.nyc_output/
+test-results/
+junit.xml
+*.lcov
+
+============================================================
+TEMPORALES
+============================================================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*.swn
+*.bak
+*.orig
+*.rej
+*~
+
+Crash reports
+
+crash.log
+crash*.log
+
+============================================================
+ARCHIVOS GENERADOS / CACHE
+============================================================
+
+.cache/
+.cache-loader/
+temp/
+tmp/
+*.cache
+
+OS / herramientas
+
+.history/
+.sass-cache/
+.eslintcache
+.stylelintcache
+
+============================================================
+DOCUMENTACIÓN / GENERADOS
+============================================================
+JSDoc generado
+
+docs/generated/
+
+Storybook
+
+storybook-static/
+
+============================================================
+MONOREPOS
+============================================================
+Nx
+
+.nx/
+
+Rush
+
+common/temp/
+
+Lerna
+
+.lerna/
+
+============================================================
+DOCKER
+============================================================
+Docker overrides locales
+
+docker-compose.override.yml
+
+Archivos locales de Docker
+
+.env.docker
+
+============================================================
+BASES DE DATOS LOCALES
+============================================================
+
+*.sqlite
+*.sqlite3
+*.db
+
+============================================================
+ARCHIVOS DE SISTEMA / CREDENCIALES
+============================================================
+
+*.p12
+*.pfx
+*.crt
+*.cer
+
+SSH
+
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+============================================================
+ARCHIVOS LOCALES DE CONFIGURACIÓN
+============================================================
+
+.local
+.local.json
+config.local.
+secrets.
+
+
+### Si tienes varios proyectos dentro de una misma carpeta
+
+Por ejemplo:
+
+```text
+repos/
+├── proyecto-node/
+│   ├── node_modules/
+│   └── dist/
+│
+├── proyecto-react-native/
+│   ├── node_modules/
+│   ├── android/build/
+│   └── ios/Pods/
+│
+├── proyecto-flutter/
+│   ├── .dart_tool/
+│   └── build/
+│
+└── proyecto-kotlin/
+    ├── .gradle/
+    └── app/build/
+
+
+El .gitignore anterior funciona recursivamente, por lo que no necesitas escribir cada carpeta como proyecto-node/node_modules/, proyecto-flutter/build/, etc.
+
+Una recomendación importante: no ignores package-lock.json, yarn.lock, pnpm-lock.yaml, pubspec.lock ni gradle-wrapper.jar de forma general. Normalmente conviene versionarlos para mantener reproducibles las dependencias.
+
+Si quieres, también puedo prepararte una versión más profesional para un monorepo, donde tengas, por ejemplo, /backend, /frontend, /mobile, /flutter y /android, con reglas específicas para cada proyecto.
