@@ -32,7 +32,24 @@ abstract class Saiyajin {
 		console.log("Detectando el nivel de energia del enemigo")
 	}
 }
-
 class Goku extends Saiyajin {
-	transformarse():void {
-	
+    transformarse(): void {
+        console.log("Goku se transforma en Super Saiyajin");
+    }
+}
+
+class Vegeta extends Saiyajin {
+    transformarse(): void {
+        console.log("Vegeta se transforma en Super Saiyajin Blue");
+    }
+}
+
+const guerreros: Saiyajin[] = [
+    new Goku(),
+    new Vegeta()
+];
+
+guerreros.forEach(guerrero => {
+    guerrero.detectarKi();
+    guerrero.transformarse();
+});
