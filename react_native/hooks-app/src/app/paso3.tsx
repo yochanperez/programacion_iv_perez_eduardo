@@ -16,7 +16,6 @@ export default function Paso3() {
   const [host, setHost] = useState<string>('')
   const [puerto, setPuerto] = useState<string>('22')
 
-  // Foco automático al montar la pantalla
   useEffect(() => {
     inputHostRef.current?.focus()
   }, [])
