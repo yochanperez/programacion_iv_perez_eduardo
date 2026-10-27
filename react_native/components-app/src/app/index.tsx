@@ -7,7 +7,6 @@ import { Paso4 } from './paso4'
 import { Paso5 } from './paso5'
 import { Paso6 } from './paso6'
 
-
 // ┌──────────────────────────────────────────────────────────────────┐
 // │  Cambia este número y guarda (Ctrl+S) para navegar entre pasos. │
 // │  1  Paso 1  Props tipadas — TarjetaServidor                     │
@@ -17,7 +16,7 @@ import { Paso6 } from './paso6'
 // │  5  Paso 5  Modal de confirmación                               │
 // │  6  Paso 6  Pantalla completa — detalle de servidor             │
 // └──────────────────────────────────────────────────────────────────┘
-const PASO: number = 6
+const PASO: number = 7
 
 export default function Index() {
   switch (PASO) {
