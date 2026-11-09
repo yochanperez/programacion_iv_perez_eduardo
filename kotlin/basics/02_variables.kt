@@ -1,3 +1,5 @@
+const val MAX_PORTALES= 10
+
 fun main(){
     var energia = 100
     println(energia)
@@ -27,4 +29,16 @@ fun main(){
     print("nombre: $nombre")
     var dimension: String = "137"
     print("Nombre: $nombre, Dimension: $dimension")
+    println("Tipo Boolean")
+    var portalActivo: Boolean = true
+    print("portalActivo: $portalActivo")
+
+    println("Val Const Var")
+    val cientifico = "Rick Sanchez"
+    var portalesDisponibles = 5
+    println("cientifico: $cientifico, portalesDisponibles: $portalesDisponibles")
+    println("Constante MAX_PORTALES: $MAX_PORTALES")
+
+
+    
 }
