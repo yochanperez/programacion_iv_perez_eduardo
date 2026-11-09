@@ -39,7 +39,6 @@ export default function SumaPaso3() {
     )
   }
 
-
   return (
     <View style={styles.contenedor}>
       <Text style={styles.titulo}>Calculadora de Suma</Text>
