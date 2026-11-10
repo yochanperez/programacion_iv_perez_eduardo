@@ -3,7 +3,7 @@ fun main(){
     println("Condicional Simple o un camino")
 
 
-
+    val energia = 80
 
 
     if (energia>=100){

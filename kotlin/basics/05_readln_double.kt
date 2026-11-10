@@ -1,15 +1,20 @@
 fun main() {
     println("Expedicion interdimensional")
     println("¿nombre del viajero?")
-    val nombre = readLine()
+    val nombre = readln()
+
     println("Cantidad de portales:")
-    val portales = readLine()!!.toInt()
+    val portales = readln().toInt()
+
     println("Costo por portal:")
-    val costo = readLine()!!.toDouble()
+    val costo = readln().toDouble()
+
     println("Creditos disponibles:")
-    val creditos = readLine()!!.toDouble()
+    val creditos = readln().toDouble()
+
     val costoTotal = portales * costo
     val saldo = creditos - costoTotal
+
     println("Reporte")
     println("Viajero: $nombre")
     println("Costo total: $costoTotal")
