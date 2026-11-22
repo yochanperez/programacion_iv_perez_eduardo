@@ -1,4 +1,4 @@
-fun main(){
+fun main() {
     val COMBUSTIBLE_MINIMO = 50
     
     println("Operadores")
@@ -18,12 +18,12 @@ fun main(){
     println("1 ()")
     println("2 * / %")
     println("3 + -")
-    val cristales = 10 + 3*5+5
+    val cristales = 10 + 3 * 5 + 5
     println("Cristales: $cristales")
-    val energia = 3/5*5
+    val energia = 3 / 5 * 5
     println("Energia: $energia")
-    val combustible= 100+20/4*3
-    println("Combustible: $combustible")
+    val combustibleCalculado = 100 + 20 / 4 * 3
+    println("Combustible: $combustibleCalculado")
 
     println("Operadores de Comparacion")
     println("Igualdad: ${numero1 == numero2}")
@@ -41,9 +41,9 @@ fun main(){
     val combustible = 100
     val portalActivo = true
 
-    val puedeViajar = combustible >= 50 && portalActivo
+    val puedeViajarPortal = combustible >= 50 && portalActivo
 
-    println("Puede viajar? $puedeViajar")
+    println("Puede viajar? $puedeViajarPortal")
 
     val tieneTarjeta = false
     val autorizadoPoRick = true
@@ -54,13 +54,13 @@ fun main(){
     println("Control de Nave - Rick Sanchez y Eduardo Perez")
 
     val pilotoNave = "Eduardo Perez"
-    val combustibleNave = 100
+    var combustibleNave = 100
     val motorActivoNave = true
-    val portalUniverso = 5
+    var portalUniverso = 5
 
     println("Piloto: $pilotoNave")
     combustibleNave += 40
-    portalUniverso --
+    portalUniverso--
     println("Combustible: $combustibleNave")
     println("Portales restantes: $portalUniverso")
     val tieneCombustible = combustibleNave >= COMBUSTIBLE_MINIMO
