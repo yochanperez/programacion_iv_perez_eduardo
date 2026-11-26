@@ -20,4 +20,6 @@ fun main(){
         val resultado = 3*i
         println("3 * i = $resultado")
     }
+
+    
 }

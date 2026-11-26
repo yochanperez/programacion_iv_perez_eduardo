@@ -1,0 +1,1 @@
+open class Vehiculo(val nombre:)
